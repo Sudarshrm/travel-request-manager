@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>SNS</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>287ae8b49d3303107f4437e32b2c39ef</logo>
+        <menu/>
+        <name>Travel Request Manager</name>
+        <package_json/>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_cdltd_travel_r_0</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_cdltd_travel_r_0</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 10:08:34</sys_created_on>
+        <sys_id>5b6ae8b49d3303107f4437e32b2c39dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 10:08:38</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b6ae8b49d3303107f4437e32b2c39dc"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>acn logo.png</file_name>
+        <hash>5c49434fa2ebb293a368b86bf5b76b77adf8a38ce2f154c031fcb848a2ba6ff9</hash>
+        <image_height>148</image_height>
+        <image_width>148</image_width>
+        <size_bytes>1422</size_bytes>
+        <size_compressed>1445</size_compressed>
+        <state/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 10:08:38</sys_created_on>
+        <sys_id>287ae8b49d3303107f4437e32b2c39ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 10:08:38</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>5b6ae8b49d3303107f4437e32b2c39dc</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="acn logo.png" sys_id="287ae8b49d3303107f4437e32b2c39ef">287ae8b49d3303107f4437e32b2c39ef</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 10:08:38</sys_created_on>
+        <sys_id>687ae8b49d3303107f4437e32b2c39ef</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AY4FcfqJUE5HDQoaCgAAAA1JSERSAAAAlAAAAJQIAwAAAELi8OYAAAB7UExURaEA/////50A/6QP/5kA//78//v2//fv/+3b/925//Hj//Tq/6UV/7pw//36/9u2/+/f/86Z/8uR/8iL/928/+jO/715/6Uh/+HA/7t0/8eG/7lr/6Qz/7hk/9ix//Tn/9Gh/6c9/69Q/9Sp/+PF/8B+/7Zc/61H/+nU/6fQ494AAATOSURBVHic5ZzbcuIwDIadYHIgBAIk4RCO5dC+/xOuZegspUDsWFIyu7roTK/6zd9fsmPLEj2hQ873mdeVEDcohTWsTm3T3OIvlBC+9CdR20AQ91BarnTRNtIvqG7I9QsK5OqlceegtFzTqN8xKC1X1Zq7XkLd3NWKXG+gQC6xHHcOSsnliyl7MtZBiTaS0QAK3CWmA0Z3GUFd3ZV3Doq11JtDgVw+TzJaQUEyzmf07rKEArkE+UbCHurqroxSriZQgtpdDaG0u6ZUcjWGuspFU+pdoK5y7UYdg9JypejucoaicBcClAC5Sky5cKC0XKsEy11YUJorjXH+i4hQWq4JxsqICqVCyuXYGQsbCuRau24k8KEEyJWOXUxPAnXdd+0ay0UEJZzkooPS7mr2EUQJJXQybu2xiKG0XKvQkoscCrhkFVu5iwPK2l08UEK7Kw5MoYTPRKXkOqwSI7nENpWSCwvcZVK7hNfPJmtWuaa1pV7on4uz2jxycUm5yd+76wrl9cPjAU7teELJNdvVQ0EU0wOnXOn2pVzi/pewuPQ45XpV6sXD77v9B59cvtzEoQGU5wXZct6yu35DqRhtl3zFS6qVMTSAUtmY7Yes7koMoCCK1ZzNXspd48AEyvOS8afk0sv3P2eJCZSKaPLJJpeUl0ViAgXFq/L55DqAXPVQKoLjxufKRrWRyI2gFFa0Yite6s+YQUHEZY/HXkMLKM8bbOcc2WgHpSI6028lrKFU8Vp8EMvVAMoj30o0g1LF60t9b1BxNYXyYCuREhUvByi1lYgmPoVcTlAQpzP+VsIZCorXGhkLAQq4VqjZiAOlsnGxwSteWFAqgv0FCQsRCrYSJUrxQoWCGFdz5+KFDqWW7KPrYQkBFHCdnc4HaaCK87BbUKMv57UHG2q0R/jEQIXanT66VhKKGdZGGQmqH+2HeKsfClR/W/Uwt3vuUOGpwt4Yu0JFM4JPCCeo7Lgm+dhygIqXiN7GgAqKM90XVjOocHohPae1hxrkB+pDDluonOCLygkqyGY8B2fmUCHG+o8KlZwubGfXhseLxYrxzs3kIHa0m6zZNNJH1mHdkXVwrEjOVZ6HlJuFvjp6AxUWFd+VJFyDTL8vs15Ckaz/r5FkVXdh1N9t12xXH7eL2/u//wRqNC7ZLj3E9RLy4Yr7ESqIGC9rr70TifcYP6EyzmttffX4tG3iDiqJD4zZZtQCkDNezgpwUvm60UtDBQO+izOI5076ATU4Xjg1go6Sugac4sIvUm2rErNIb5x0B8XVk2coEi+UlMvctK+SraVyYtHfzNN8muZWPbEMbbpqM9mtNl2Vbg1eF/xnrd/SX9o5iRwKRDKrSWxQ0i+d3geTPFGpb8TlhVIiuT9E/NefPUG6uQNhQrmlGwkUipNQoZSTkEf6IDxkdatJ+FCQbo41CRtKipLm6b3LM/LJgASp+YN7ge8kNyhfij3pJIcGQxx6JfXwLPtxF2ROagilRGIZO2M1QoVrFpshlK9E4pv8ZDiWh8NJVlByuGSeVVc76kn2+Kf6vYXy5fDcxgyx9+PDWhp9+HrQ2jwtWiF6CQVO4kw3Ayg5ZKxJRlDKSce2h2g+DoScl6056TmUqgDdmDR6N2R03V66PcQ3lFxvW0y3h/gDhThXIhpDlrMAAAAASUVORK5CYII6h5idjgUAAA==</data>
+        <length>1916</length>
+        <position>1</position>
+        <sys_attachment display_value="acn logo.png" sys_id="287ae8b49d3303107f4437e32b2c39ef">287ae8b49d3303107f4437e32b2c39ef</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 10:08:38</sys_created_on>
+        <sys_id>e87ae8b49d3303107f4437e32b2c39ef</sys_id>
+    </sys_attachment_doc>
+</record_update>

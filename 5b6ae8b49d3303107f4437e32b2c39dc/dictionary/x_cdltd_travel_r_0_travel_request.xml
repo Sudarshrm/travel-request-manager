@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b59ba8f49d3303107f4437e32b2c39b2" label="Travel Request" max_length="40" name="x_cdltd_travel_r_0_travel_request" type="collection">
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Rejection Reason" max_length="40" name="rejection_reason" type="string"/>
+        <element choice="1" label="Travel Type" max_length="40" name="travel_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="International" sequence="200" value="international"/>
+                <element inactive_on_update="false" label="Domestic" sequence="100" value="domestic"/>
+            </choice>
+        </element>
+        <element choice="1" default="draft" label="State" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="700" value="cancelled"/>
+                <element inactive_on_update="false" label="Booked" sequence="400" value="booked"/>
+                <element inactive_on_update="false" label="Draft" sequence="100" value="draft"/>
+                <element inactive_on_update="false" label="Manager Approved" sequence="300" value="manager_approved"/>
+                <element inactive_on_update="false" label="Submitted" sequence="200" value="submitted"/>
+                <element inactive_on_update="false" label="Completed" sequence="500" value="completed"/>
+                <element inactive_on_update="false" label="Rejected" sequence="600" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Visa Required" max_length="40" name="visa_required" type="boolean"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requested By" mandatory="true" max_length="32" name="requested_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Estimated Cost" mandatory="true" max_length="20" name="estimated_cost" type="currency"/>
+        <element label="Director Approval Needed" max_length="40" name="director_approval_needed" read_only="true" type="boolean"/>
+        <element label="Purpose of travel" mandatory="true" max_length="40" name="purpose_of_travel" type="string"/>
+        <element label="Destination" mandatory="true" max_length="40" name="destination" type="string"/>
+        <element label="Return Date" mandatory="true" max_length="40" name="return_date" type="glide_date"/>
+        <element label="Departure Date" mandatory="true" max_length="40" name="departure_date" type="glide_date"/>
+        <element label="Visa Details" max_length="40" name="visa_details" type="string"/>
+        <element label="Manager" max_length="32" name="manager" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Booking Reference" max_length="40" name="booking_reference" type="string"/>
+        <element label="Origin" mandatory="true" max_length="40" name="origin" type="string"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+        <index name="index3">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>
